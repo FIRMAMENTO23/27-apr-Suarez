@@ -17,7 +17,7 @@ document.addEventListener('DOMContentLoaded', function () {
         var seconds = Math.floor((distance % (1000 * 60)) / 1000);
 
         // Display the countdown
-        document.getElementById("countdown").innerHTML = days + "giorni " + hours + "ore " + minutes + "min " + seconds + "sec";
+        document.getElementById("countdown").innerHTML = days + "days " + hours + "hours " + minutes + "min " + seconds + "sec";
 
         // If the countdown is over, display a message 
         if (distance < 0) {
