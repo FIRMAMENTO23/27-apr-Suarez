@@ -1,0 +1,22 @@
+body {
+    margin: 0px;
+    padding: 50;
+    background-image: url('departure.jpg');
+    background-size: cover;
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    color: #fff;
+}
+
+.countdown-container {
+    background: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+#countdown {
+    font-size: 100px;
+}
